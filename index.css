@@ -1,0 +1,98 @@
+@font-face{font-family: Raleway-SemiBold; src: url('./res/Raleway-SemiBold.ttf')}
+@font-face{font-family: Raleway-Black; src: url('./res/Raleway-Black.ttf')}
+html, body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #f0f0f0;
+    color: #21252B;
+    font-family: Raleway-SemiBold;
+    font-size: medium;
+}
+
+img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.subtitulo {
+    width: 50vw;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.introduccion {
+    background-color: #BFD6F6;
+    color: black;
+    cursor: pointer;
+}
+
+.objetivos {
+    background-color: #CFFBD6;
+    color: black;
+    cursor: pointer;
+}
+
+.preguntas {
+    background-color: #FAC898;
+    color: black;
+    cursor: pointer;
+}
+
+.planteamiento {
+    background-color: #DBC0E9;
+    color: black;
+    cursor: pointer;
+}
+
+.marco {
+    background-color: #FF9AA2;
+    color: black;
+    cursor: pointer;
+}
+
+.metodo {
+    background-color: #F9F8CA;
+    color: black;
+    cursor: pointer;
+}
+
+.resultados{
+    background-color: #D6EFF6;
+    color: black;
+    cursor: pointer;
+}
+
+.conclusion {
+    background-color: #D9DDE0;
+    color: black;
+    cursor: pointer;
+}
+
+.section{
+    display: none;
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.sub{
+    font-family: Raleway-Black;
+}
+
+#principal{
+    width: 70vw;
+}
