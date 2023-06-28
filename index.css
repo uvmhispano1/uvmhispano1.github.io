@@ -27,6 +27,12 @@ img{
     font-weight: bold;
 }
 
+.integrantes{
+    background-color: #FFE0D5;
+    color: black;
+    cursor: pointer;
+}
+
 .introduccion {
     background-color: #BFD6F6;
     color: black;
@@ -75,6 +81,12 @@ img{
     cursor: pointer;
 }
 
+.referencias{
+    background-color: #7ad6d8;
+    color: black;
+    cursor: pointer;
+}
+
 .section{
     display: none;
     width: 50%;
@@ -95,4 +107,8 @@ img{
 
 #principal{
     width: 70vw;
+}
+
+#integrantes{
+    text-align: center;
 }
